@@ -1,0 +1,164 @@
+ 
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/* header start */
+ header{
+   
+    width: 100%;
+   
+ }
+.navbar-collapse {
+    justify-content: end;
+}
+.navbar-brand b{
+     
+    color: rgba(113, 113, 113, 0.8);
+}
+.nav-item {
+    text-transform:uppercase;
+    /* margin-top: 5%; */
+}
+
+.nav-link{
+    color:rgb(255, 255, 255);
+    
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:rgb(0, 0, 0);
+    
+}
+.text1{
+    color:white;
+}
+.text-1{
+    text-transform:uppercase;
+    font-size: 65px;
+    font-weight:lighter;
+    /* padding: 0px 198px; */
+}
+.text1 p{
+    padding: 2%  15%;
+    font-size: 22px;
+}
+
+.banner{    
+    background-image:linear-gradient(45deg,
+    rgba(27, 23, 43, 0.8),
+    rgba(27,23, 43, 0.8)), url(image/Untitled-45.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.paregrap{
+    padding-top: 3%;
+}
+.h{
+    padding: 2% 0px;
+}
+.section3{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    
+}
+.section3 .galleryImg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.section3 .galleryImg img{
+    width: 100%;
+    height: 215px;
+    object-fit:cover;
+}
+.section3 .galleryImg::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: rgba(245, 51, 51, 0.77);
+    opacity: 0;
+    transition: 0.25s all ease-in-out;
+}
+.section3 .galleryImg:hover::before{
+    opacity: 1;
+}
+.section3 .galleryImg .ImgContent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    opacity: 0;
+    transition: 0.25s all ease-in-out;
+}
+.section3 .galleryImg:hover .ImgContent{
+    opacity: 1;
+}
+
+.bhf{
+    background-color: rgb(63, 53, 71);
+}
+.h1-5{
+    font-family: 'Cardo', serif;
+    padding: 1% 8%;
+}
+.class-h3{
+font-weight: 100;
+}
+.font-weight-5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.background{
+    background-color: rgb(38, 51, 80);
+}
+.text-inbox{
+    color: rgb(87, 96, 107);
+}
+.btn-danger2{
+    background-color: rgba(43, 61, 90, 0.931);
+}
+
+     
+
+
+
+ @media (max-width:576px) {
+    .banner{
+        height: auto;
+    }
+ }
+ 
+ 
+    
+    
+    
+ 
+ 
+        
+
+
+
+
+ 
